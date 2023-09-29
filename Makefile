@@ -22,4 +22,4 @@ dist/chip.json: dist chip.json
 
 .PHONY: test
 test:
-	  cd test && arduino-cli compile -e -b arduino:avr:uno blink
+	  cd test

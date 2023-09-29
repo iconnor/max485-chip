@@ -1,13 +1,17 @@
 {
   "version": 1,
-  "name": "Inverter",
-  "author": "Uri Shaked",
+  "name": "MAX485",
+  "author": "Ian Connor",
   "license": "MIT",
-  "docs": "https://github.com/wokwi/inverter-chip/blob/main/docs/README.md",
+  "docs": "https://github.com/iconnor/max485-chip/blob/main/docs/README.md",
   "pins": [
-    "OUT",
-    "IN",
+    "RO",
+    "RE",
+    "DE",
+    "DI",
     "VCC",
+    "B",
+    "A",
     "GND"
   ]
 }
