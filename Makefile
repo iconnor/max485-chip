@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 
 SOURCES = src/main.c
-TARGET  = dist/chip.wasm
+TARGET  = dist/max485.chip.wasm
 
 .PHONY: all
 all: $(TARGET) dist/chip.json
