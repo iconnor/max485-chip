@@ -89,7 +89,7 @@ static void chip_timer_callback(void *user_data) {
     if (chip->bufferIndex > 0) {
       printf("Time gap detected: %llu\n", current_time - chip->last_byte_time);
       printf("chip time %llu vs. current time %llu\n", chip->last_byte_time, current_time);
-      printf("Buffer size: %hu\n", chip->bufferIndex);
+      printf("Buffer size: %hu b[0] = %hu\n", chip->bufferIndex, chip->modbusBuffer);
       process_modbus_frame(chip->uart0, chip->modbusBuffer, chip->bufferIndex);
     }
     chip->bufferIndex = 0;  // Reset buffer
