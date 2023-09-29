@@ -21,7 +21,7 @@ To use this chip in your project, include it and send it 9600 8N1 serial data. T
 
 ```json
   "dependencies": {
-    "chip-inverter": "github:iconnor/max485-chip@0.0.0"
+    "chip-max485": "github:iconnor/max485-chip@0.0.0"
   }
 ```
 
